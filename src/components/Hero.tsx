@@ -15,15 +15,15 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center animate-fade-in">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient">
-            Alex Johnson
+            Prashant Kumar Pankaj
           </h1>
           <h2 className="text-2xl md:text-3xl text-secondary-foreground mb-8 font-light">
-            Full Stack Software Engineer
+            Software Engineer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting exceptional digital experiences with modern technologies.
-            Passionate about clean code, user experience, and innovative
-            solutions.
+            Building scalable systems and data pipelines with modern
+            technologies. Passionate about performance optimization, machine
+            learning integration, and creating impactful solutions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -48,7 +48,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/rez-n0v/"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rezn0v/"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:pk747858@gmail.com"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
             >
               <Mail className="h-6 w-6" />

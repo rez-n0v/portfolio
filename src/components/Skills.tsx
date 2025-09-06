@@ -3,34 +3,41 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: [
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "Vue.js",
-        "Angular",
-      ],
+      title: "Languages",
+      skills: ["Java", "Python", "JavaScript", "HTML", "CSS", "TypeScript"],
     },
     {
-      title: "Backend",
+      title: "Frameworks & Libraries",
       skills: [
-        "Node.js",
-        "Python",
-        "Express",
+        "NodeJS",
+        "ReactJS",
+        "Spring Boot",
         "FastAPI",
-        "PostgreSQL",
-        "MongoDB",
+        "Express",
+        "MLOps",
       ],
     },
     {
-      title: "DevOps & Cloud",
-      skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Vercel"],
+      title: "Databases & Storage",
+      skills: [
+        "MongoDB",
+        "Redis",
+        "Memcache",
+        "SQL",
+        "ElasticSearch",
+        "Snowflake",
+      ],
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "GraphQL", "Redis", "Jest", "Figma", "Linear"],
+      title: "Cloud & DevOps",
+      skills: [
+        "Microsoft Azure",
+        "Google Cloud Platform",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Apache Kafka",
+      ],
     },
   ];
 
@@ -70,8 +77,9 @@ const Skills = () => {
           <div className="mt-16 text-center">
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               I'm always eager to learn new technologies and stay up-to-date
-              with industry trends. Currently exploring AI/ML integration, Web3
-              technologies, and advanced cloud architectures.
+              with industry trends. Currently exploring advanced ML/AI
+              integration, distributed systems optimization, and modern data
+              engineering practices.
             </p>
           </div>
         </div>

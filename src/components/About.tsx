@@ -10,33 +10,33 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a passionate software engineer with over 5 years of
-                experience building scalable web applications and innovative
-                digital solutions. My journey began with a Computer Science
-                degree, but my real education came from tackling complex
-                problems and continuously learning new technologies.
+                I'm a passionate software engineer with 2+ years of experience
+                building scalable systems, data pipelines, and innovative
+                solutions at leading companies like Walmart Global Tech and
+                Studio Management HF. My journey began with a B.Tech in Computer
+                Science Engineering from Birla Institute of Technology, Mesra
+                (CGPA: 8.25).
               </p>
 
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                I specialize in full-stack development, with expertise in modern
-                JavaScript frameworks, cloud technologies, and agile
-                methodologies. I believe in writing clean, maintainable code and
-                creating user experiences that make a difference.
+                I specialize in building robust backend systems, data pipelines,
+                and microservices architecture. My expertise spans from
+                performance optimization (achieving 700% throughput
+                improvements) to ML/AI integration, with a strong focus on
+                scalable, distributed systems.
               </p>
 
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-card rounded-lg border">
-                  <div className="text-2xl font-bold text-primary mb-2">
-                    50+
-                  </div>
+                  <div className="text-2xl font-bold text-primary mb-2">2+</div>
                   <div className="text-sm text-muted-foreground">
-                    Projects Completed
+                    Years Experience
                   </div>
                 </div>
                 <div className="text-center p-4 bg-card rounded-lg border">
-                  <div className="text-2xl font-bold text-primary mb-2">5+</div>
+                  <div className="text-2xl font-bold text-primary mb-2">2</div>
                   <div className="text-sm text-muted-foreground">
-                    Years Experience
+                    Awards Won
                   </div>
                 </div>
               </div>
@@ -51,31 +51,31 @@ const About = () => {
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                     <span className="text-muted-foreground">
-                      Full-stack web application development
+                      Backend systems and data pipeline development
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                     <span className="text-muted-foreground">
-                      API design and microservices architecture
+                      Microservices architecture and distributed systems
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                     <span className="text-muted-foreground">
-                      Cloud deployment and DevOps practices
+                      Machine Learning and NLP integration
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                     <span className="text-muted-foreground">
-                      Performance optimization and scaling
+                      Performance optimization and scalability
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                     <span className="text-muted-foreground">
-                      Team collaboration and mentoring
+                      Cloud platforms and DevOps automation
                     </span>
                   </li>
                 </ul>

@@ -9,33 +9,39 @@ import mobileImage from "@/assets/project-mobile.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "Analytics Dashboard",
+      title: "Investment Platform Integration",
       description:
-        "A comprehensive analytics platform with real-time data visualization, custom reporting, and team collaboration features. Built with React, D3.js, and Node.js.",
+        "Built systems that integrated fundamental company and segment analysis with employee data and alternative data sources for enhanced decision-making at Studio Management HF.",
       image: dashboardImage,
-      technologies: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      technologies: ["Snowflake", "Python", "Data Pipeline", "Backend Systems"],
+      githubUrl: "https://github.com/rez-n0v/",
+      liveUrl: "#",
       featured: true,
     },
     {
-      title: "E-Commerce Platform",
+      title: "Data Pipeline & MLOps Platform",
       description:
-        "Full-featured e-commerce solution with payment integration, inventory management, and admin dashboard. Optimized for performance and scalability.",
+        "Designed and developed a scalable data pipeline integrating MLOps to perform NLP-based Sentiment analysis and Topic modeling in a distributed systems architecture on Survey Responses at Walmart.",
       image: ecommerceImage,
-      technologies: ["Next.js", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      technologies: ["Python", "MLOps", "NLP", "Distributed Systems", "Java"],
+      githubUrl: "https://github.com/rez-n0v/",
+      liveUrl: "#",
       featured: true,
     },
     {
-      title: "Task Management App",
+      title: "Performance Optimization Suite",
       description:
-        "Collaborative task management application with real-time updates, team workspaces, and productivity analytics. Cross-platform mobile and web app.",
+        "Implemented data compression for key-value caching, boosting throughput by 700% to 11,000 RPS, and developed various microservices for reporting metrics and AI/ML model cataloging.",
       image: mobileImage,
-      technologies: ["React Native", "Firebase", "Redux", "TypeScript"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://demo.com",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Redis",
+        "Microservices",
+        "Performance Tuning",
+      ],
+      githubUrl: "https://github.com/rez-n0v/",
+      liveUrl: "#",
       featured: false,
     },
   ];
@@ -205,7 +211,7 @@ const Projects = () => {
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
             >
               <a
-                href="https://github.com"
+                href="https://github.com/rez-n0v/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
