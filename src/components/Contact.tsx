@@ -6,7 +6,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted');
+    console.log("Form submitted");
   };
 
   return (
@@ -16,18 +16,19 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gradient">
             Get In Touch
           </h2>
-          
+
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div className="animate-slide-in-left">
               <h3 className="text-2xl font-semibold mb-6 text-foreground">
                 Let's Work Together
               </h3>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you have a question, want to discuss a potential collaboration, 
-                or just want to say hello, feel free to reach out!
+                I'm always interested in new opportunities and exciting
+                projects. Whether you have a question, want to discuss a
+                potential collaboration, or just want to say hello, feel free to
+                reach out!
               </p>
-              
+
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -35,10 +36,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">alex.johnson@example.com</p>
+                    <p className="text-muted-foreground">
+                      alex.johnson@example.com
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Phone className="h-5 w-5 text-primary" />
@@ -48,7 +51,7 @@ const Contact = () => {
                     <p className="text-muted-foreground">+1 (555) 123-4567</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <MapPin className="h-5 w-5 text-primary" />
@@ -60,7 +63,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            
+
             <Card className="bg-card border card-glow smooth-transition animate-slide-in-right">
               <CardContent className="p-6">
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -88,7 +91,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  
+
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Subject
@@ -100,7 +103,7 @@ const Contact = () => {
                       placeholder="What's this about?"
                     />
                   </div>
-                  
+
                   <div>
                     <label className="block text-sm font-medium text-foreground mb-2">
                       Message
@@ -112,7 +115,7 @@ const Contact = () => {
                       placeholder="Tell me about your project or idea..."
                     />
                   </div>
-                  
+
                   <Button
                     type="submit"
                     size="lg"

@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -83,41 +88,41 @@ export default {
         "fade-in": {
           "0%": {
             opacity: "0",
-            transform: "translateY(20px)"
+            transform: "translateY(20px)",
           },
           "100%": {
             opacity: "1",
-            transform: "translateY(0)"
-          }
+            transform: "translateY(0)",
+          },
         },
         "slide-in-left": {
           "0%": {
             opacity: "0",
-            transform: "translateX(-50px)"
+            transform: "translateX(-50px)",
           },
           "100%": {
             opacity: "1",
-            transform: "translateX(0)"
-          }
+            transform: "translateX(0)",
+          },
         },
         "slide-in-right": {
           "0%": {
             opacity: "0",
-            transform: "translateX(50px)"
+            transform: "translateX(50px)",
           },
           "100%": {
             opacity: "1",
-            transform: "translateX(0)"
-          }
+            transform: "translateX(0)",
+          },
         },
-        "float": {
+        float: {
           "0%, 100%": {
-            transform: "translateY(0)"
+            transform: "translateY(0)",
           },
           "50%": {
-            transform: "translateY(-10px)"
-          }
-        }
+            transform: "translateY(-10px)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -125,7 +130,7 @@ export default {
         "fade-in": "fade-in 0.6s ease-out",
         "slide-in-left": "slide-in-left 0.6s ease-out",
         "slide-in-right": "slide-in-right 0.6s ease-out",
-        "float": "float 3s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
       },
     },
   },

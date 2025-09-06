@@ -3,11 +3,11 @@ import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   const scrollToProjects = () => {
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
   };
 
   const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -21,23 +21,24 @@ const Hero = () => {
             Full Stack Software Engineer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting exceptional digital experiences with modern technologies. 
-            Passionate about clean code, user experience, and innovative solutions.
+            Crafting exceptional digital experiences with modern technologies.
+            Passionate about clean code, user experience, and innovative
+            solutions.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
+            <Button
               onClick={scrollToProjects}
-              variant="default" 
+              variant="default"
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 smooth-transition"
             >
               View My Work
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
-            <Button 
+            <Button
               onClick={scrollToContact}
-              variant="outline" 
+              variant="outline"
               size="lg"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground smooth-transition"
             >
@@ -46,24 +47,24 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6">
-            <a 
-              href="https://github.com" 
+            <a
+              href="https://github.com"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Github className="h-6 w-6" />
             </a>
-            <a 
-              href="https://linkedin.com" 
+            <a
+              href="https://linkedin.com"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Linkedin className="h-6 w-6" />
             </a>
-            <a 
-              href="mailto:alex@example.com" 
+            <a
+              href="mailto:alex@example.com"
               className="text-muted-foreground hover:text-primary smooth-transition hover:scale-110"
             >
               <Mail className="h-6 w-6" />
@@ -71,7 +72,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float">
         <ArrowDown className="h-6 w-6 text-primary" />
       </div>
